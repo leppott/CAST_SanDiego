@@ -1,0 +1,31 @@
+---
+title: "NEWS-CAST_SanDiego"
+output: github_document
+  #md_document:
+   # variant: markdown_github
+---
+
+<!-- NEWS.md is generated from NEWS.Rmd. Please edit that file -->
+
+```{r knitrOptions, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "NEWS-"
+)
+```
+
+```{r LastUpdate, echo = FALSE}
+cat(paste0("Last Update: ",Sys.time()))
+```
+
+# Planned Updates
+  
+
+# Version History
+
+## v0.0.0.9000
+2018-02-02
+
+* Set up on GitHub (online and Desktop) with ReadMe and NEWS.
+
